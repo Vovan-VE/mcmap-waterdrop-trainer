@@ -1,4 +1,3 @@
 function waterdroptrainer:depth_select_random
 function waterdroptrainer:floor_select_random
 function waterdroptrainer:floor_choose
-function waterdroptrainer:floor_set

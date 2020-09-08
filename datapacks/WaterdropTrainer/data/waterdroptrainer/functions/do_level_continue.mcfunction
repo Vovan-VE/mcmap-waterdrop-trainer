@@ -1,2 +1,2 @@
 function waterdroptrainer:player_start
-function waterdroptrainer:floor_reset
+function waterdroptrainer:floor_set
