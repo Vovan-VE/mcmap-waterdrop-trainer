@@ -6,4 +6,4 @@ execute unless block 10 202 12 minecraft:lever[powered=true] if entity @e[type=m
 # check flag block
 execute if block 1 0 0 minecraft:bedrock run function waterdroptrainer:do_game_win
 execute unless block 1 0 0 minecraft:bedrock run function waterdroptrainer:do_level_next
-execute unless block 1 0 0 minecraft:bedrock playsound minecraft:entity.player.levelup master @p[tag=inGame] ~ ~ ~ 200
+execute unless block 1 0 0 minecraft:bedrock run playsound minecraft:entity.player.levelup master @p[tag=inGame] ~ ~ ~ 200
