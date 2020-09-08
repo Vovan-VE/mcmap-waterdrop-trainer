@@ -1,0 +1,4 @@
+function waterdroptrainer:level_progress_reset
+function waterdroptrainer:temp_barrier_set
+function waterdroptrainer:game_joined
+function waterdroptrainer:do_level_continue

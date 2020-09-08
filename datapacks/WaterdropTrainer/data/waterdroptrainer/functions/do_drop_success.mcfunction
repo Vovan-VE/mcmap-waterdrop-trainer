@@ -1,3 +1,2 @@
-function waterdroptrainer:level_progress_inc
-execute if entity @p[tag=inGame,scores={level_progress=..2}] run function waterdroptrainer:do_level_continue
-execute if entity @p[tag=inGame,scores={level_progress=3..}] run function waterdroptrainer:do_level_win
+execute unless block 10 202 12 minecraft:lever[powered=true] run function waterdroptrainer:do_drop_success_ordered
+execute if block 10 202 12 minecraft:lever[powered=true] run function waterdroptrainer:do_drop_success_random
