@@ -18,6 +18,3 @@ attribute @p minecraft:generic.max_health base set 1
 #attribute @p minecraft:generic.max_health modifier remove e8782a43-f7f3-420e-833b-e778e68f9c89
 #attribute @p minecraft:generic.max_health modifier add e8782a43-f7f3-420e-833b-e778e68f9c89 generic.max_health -19.0 add
 #attribute @p minecraft:generic.max_health base set 1.0
-
-# give button at head {AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:-19.0,Operation:0,UUID:[I; -110663, 103297, -1423577, 206238],Slot:"head"}]}
-# Inventory[{Slot:103b}]
