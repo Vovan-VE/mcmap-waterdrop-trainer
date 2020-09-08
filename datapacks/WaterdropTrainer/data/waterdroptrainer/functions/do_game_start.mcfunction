@@ -5,6 +5,7 @@ execute unless block 10 202 12 minecraft:lever[powered=true] run function waterd
 execute if block 10 202 12 minecraft:lever[powered=true] run function waterdroptrainer:mode_select_random
 
 tp @p[tag=inGame] 5 202.5 26 -90 0
+function waterdroptrainer:level_effects_random
 function waterdroptrainer:player_start
 
 tellraw @a [{"color":"green","text":"Do three success waterdrops to win a level. Notice the `Level Progress` bar in front of you. It will reset when you fail."}]

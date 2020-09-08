@@ -22,3 +22,6 @@ tp @p[tag=inGame] 8 201.1 8 180 0
 spawnpoint @p[tag=inGame] 8 202 8
 
 tag @p[tag=inGame] remove inGame
+
+function waterdroptrainer:light_select_1st
+function waterdroptrainer:speed_select_normal
