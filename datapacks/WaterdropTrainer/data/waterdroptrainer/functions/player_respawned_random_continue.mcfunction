@@ -1,0 +1,3 @@
+function waterdroptrainer:temp_barrier_set
+function waterdroptrainer:game_joined
+function waterdroptrainer:do_level_next

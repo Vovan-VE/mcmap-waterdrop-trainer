@@ -1,1 +1,1 @@
-tellraw @a {"color":"green","text":"Ordered - Complete all levels to win the game. Do three success waterdrops to win each level."}
+tellraw @a {"color":"green","text":"Ordered - complete all levels to win the game. Do 3 success waterdrops to win each level."}
