@@ -18,8 +18,11 @@ scoreboard objectives remove level_progress
 scoreboard objectives remove deaths
 
 # back to lobby
-tp @p[tag=inGame] 8 201.1 8 180 0
+tp @p[tag=inGame] 8 201.1 8 0 0
 spawnpoint @p[tag=inGame] 8 202 8
+# show heads for first time
+execute unless entity @e[tag=global,scores={look_about_count=1..}] as @p[tag=inGame] at @s run tp @s ~ ~ ~ 180 0
+scoreboard players add @e[tag=global,limit=1] look_about_count 1
 
 tag @p[tag=inGame] remove inGame
 
