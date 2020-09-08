@@ -1,0 +1,2 @@
+function waterdroptrainer:floor_erase
+function waterdroptrainer:floor_set
