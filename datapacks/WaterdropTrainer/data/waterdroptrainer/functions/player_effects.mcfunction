@@ -1,7 +1,5 @@
 # const effects
 effect give @p[tag=inGame] minecraft:saturation 1000000 0 true
-#effect give @p[tag=inGame] minecraft:poison 1000000 2 true
-#effect give @p[tag=inGame] minecraft:slowness 2 5 true
 
 # optionable effects
 # speed
