@@ -9,7 +9,7 @@ effect give @p minecraft:instant_damage 1 1
 # set max to 13hp:
 attribute @p minecraft:generic.max_health base set 13
 # status: 8 of 13hp
-# health to reach max:
+# instant health to reach max:
 effect give @p minecraft:instant_health 1 2
 # status: 13 of 13hp
 # damage by 12hp:

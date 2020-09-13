@@ -4,7 +4,9 @@ effect give @p[tag=inGame] minecraft:saturation 1000000 0 true
 # optionable effects
 # speed
 function waterdroptrainer:speed_update
+
 # blindness
-setblock 0 202 23 minecraft:redstone_block replace
+function waterdroptrainer:effect_blindness_update
+
 # nausea
-setblock 0 202 29 minecraft:redstone_block replace
+function waterdroptrainer:effect_nausea_update

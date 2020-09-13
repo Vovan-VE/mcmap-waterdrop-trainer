@@ -14,9 +14,9 @@ clear @p[tag=inGame] minecraft:bucket
 clear @p[tag=inGame] minecraft:water_bucket
 
 execute as @e[tag=decor] run data modify entity @s CustomNameVisible set value 0
-scoreboard objectives remove level_progress
-scoreboard objectives remove lives_remain
-scoreboard objectives remove success_count
+scoreboard objectives remove levelProgress
+scoreboard objectives remove livesRemain
+scoreboard objectives remove successCountLive
 scoreboard objectives remove deaths
 
 # back to lobby
