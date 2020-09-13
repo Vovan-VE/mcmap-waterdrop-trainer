@@ -15,4 +15,4 @@ execute if block 2 203 28 minecraft:lever[powered=true] at @e[tag=selectDepth,li
 # + score for blindness
 execute if block 2 203 24 minecraft:lever[powered=true] at @e[tag=selectDepth,limit=1] run scoreboard players operation @e[tag=global] scoreCurrentMode += @e[tag=scoreDepth,sort=nearest,limit=1] srcScoreBlindn
 
-tellraw @a ["Current mode score: ",{"score":{"name":"@e[tag=global]","objective":"scoreCurrentMode"},"bold":true}]
+#tellraw @a ["Level score: ",{"score":{"name":"@e[tag=global]","objective":"scoreCurrentMode"},"bold":true}]

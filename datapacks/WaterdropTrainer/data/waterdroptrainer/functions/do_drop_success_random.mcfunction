@@ -5,5 +5,7 @@ execute if entity @p[tag=inGame,scores={successCountLive=5..}] run function wate
 
 scoreboard players add @p[tag=inGame] successCount 1
 function waterdroptrainer:score_current_mode_init
+function waterdroptrainer:score_success_sequence
+scoreboard players operation @p[tag=inGame] scoreTotal += @e[tag=global] scoreCurrentMode
 
 function waterdroptrainer:do_level_win
