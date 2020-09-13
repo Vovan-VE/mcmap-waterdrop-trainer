@@ -7,4 +7,8 @@
 #
 # So, now we have that wall temporary to prevent quick falsy waterdrop while
 # immunity is active. Thank you, Minecraft :-/
-setblock 0 195 24 minecraft:redstone_block
+fill 8 203 24 8 204 28 minecraft:glass_pane replace
+setblock 8 202 26 minecraft:barrier replace
+setblock 7 202 26 minecraft:birch_wall_sign[facing=west]{Color:"black",Text1:'{"text":"Please, wait..."}',Text2:'{"text":"2.5 s"}',Text3:'{"text":"Workaround to"}',Text4:'{"text":"respawn immunity"}'}
+
+schedule function waterdroptrainer:temp_barrier_remove 2.5s

@@ -1,2 +1,2 @@
 function waterdroptrainer:player_start
-function waterdroptrainer:floor_set
+schedule function waterdroptrainer:floor_set 1t

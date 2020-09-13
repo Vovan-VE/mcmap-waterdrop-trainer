@@ -1,3 +1,3 @@
-function waterdroptrainer:depth_select_random
 function waterdroptrainer:floor_select_random
-function waterdroptrainer:floor_choose
+function waterdroptrainer:depth_select_random
+schedule function waterdroptrainer:floor_choose 1t
