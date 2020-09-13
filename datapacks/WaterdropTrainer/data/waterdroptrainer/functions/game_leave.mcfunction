@@ -17,6 +17,8 @@ execute as @e[tag=decor] run data modify entity @s CustomNameVisible set value 0
 scoreboard objectives remove levelProgress
 scoreboard objectives remove livesRemain
 scoreboard objectives remove successCountLive
+scoreboard objectives remove successCount
+scoreboard objectives remove scoreTotal
 scoreboard objectives remove deaths
 
 # back to lobby
