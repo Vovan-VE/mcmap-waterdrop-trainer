@@ -4,6 +4,10 @@
 
 *   Initial release.
 
+### 0.6.0
+
+*   Add score points to "Random levels" game type.
+
 ### 0.5.1
 
 *   Add lives counter to "Random levels" game type.
