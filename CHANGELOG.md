@@ -1,8 +1,9 @@
 ## Changelog
 
-### 1.0.0 (in dev)
+### 1.0.0
 
-*   Initial release.
+*   First release.
+*   Cosmetic informational changes.
 
 ### 0.6.0
 
