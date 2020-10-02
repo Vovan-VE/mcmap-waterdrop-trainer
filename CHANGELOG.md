@@ -1,5 +1,9 @@
 ## Changelog
 
+### 1.0.1
+
+*   Fix: typos.
+
 ### 1.0.0
 
 *   First release.
