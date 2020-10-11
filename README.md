@@ -1,7 +1,7 @@
 Waterdrop Trainer
 =================
 
-![version: 1.0.1](https://img.shields.io/badge/version-1.0.1-success)
+![version: 1.0.2](https://img.shields.io/badge/version-1.0.2-success)
 ![Minecraft: 1.16.1](https://img.shields.io/badge/Minecraft-1.16.1-success)
 
 This repository created to track bugs and suggestions for Minecraft
