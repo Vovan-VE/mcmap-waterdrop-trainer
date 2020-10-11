@@ -1,6 +1,6 @@
 ## Changelog
 
-### 1.0.2 (dev)
+### 1.0.2
 
 *   Fix: Moon at "Day" and Sun as "Night" environment may give unfair advantage
     over Blindness effect.
